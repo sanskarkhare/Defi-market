@@ -1,15 +1,32 @@
-# Basic Sample Hardhat Project
+# DeFi Market
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+A Digital Finance Marketplace in which a user can stake his token and get rewards on his staked token.
 
-Try running some of the following tasks:
+# Tools, Languages & Frameworks used ⚡️
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
+Solidity, javascript
+React.js
+Hardhat
+Ethers.js
+
+
+# Running this project ☘️
+
+To run this project locally, follow these steps.
+
+Clone the project locally, change into the directory, and install the dependencies:
+git clone https://github.com/sanskarkhare/Defi-market
+
+# install using NPM or Yarn
+npm install
+
+# or
+
+Yarn install 
+
+Start the local Hardhat node
 npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+With the network running, deploy the contracts to the local network in a separate terminal window
+npx hardhat run scripts/deploy.js --network localhost
+Start the app
+npm start
