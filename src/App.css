@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.lab{
+  margin: 5rem 0 1rem 0;
+}
+
+.Input{
+  margin: 0 0 2rem 0;
+}
+
+.lbp{
+  display: flex;
+  flex-direction: row;
+  font-size: large;
+  margin-left: -5%;
+}
+
+#Total, #My, #reward{
+  margin-top: -2px;
+  margin-left: 3px;
+  font-size: larger;
+  font-weight: 600;
+}
+
+.f-cont {
+  position: relative;
+  
+  bottom: 0;
+  left: 40%;
+}
+
+
+.bigWrap{
+  position: absolute;
+} 
